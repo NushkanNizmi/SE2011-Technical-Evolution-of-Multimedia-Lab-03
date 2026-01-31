@@ -1,4 +1,4 @@
-# 🧪 SE2011 – Technical Evolution of Multimedia  
+# SE2011 – Technical Evolution of Multimedia  
 ## LAB SHEET 03 (2 Hours)  
 ### Animation & Interactivity Basics in Processing
 
@@ -30,19 +30,19 @@ By the end of this lab, students will be able to:
 
 ---
 
-🔹 **Part A: Quick Revision – How `draw()` Works**
+**Part A: Quick Revision – How `draw()` Works**
 
 Before starting animation, remember:
 
 - `setup()` runs **once**
 - `draw()` runs **again and again** (around **60 times per second**)
 
-📌 **Important Concept**  
+**Important Concept**  
 Animation in Processing is created by changing values **little by little** inside `draw()`.
 
 ---
 
-🔹 **Part B: Creating Your First Animation**
+ **Part B: Creating Your First Animation**
 
 ### Step B1: Moving a Shape Horizontally
 Type the following code:
@@ -67,7 +67,7 @@ void draw() {
 - In every frame, `x` increases by **2**
 - The circle appears to **move smoothly** across the screen
 
-### 🧠 Key Learning
+### Key Learning
 **Animation = position + time**
 
 ### Self-Practice
@@ -75,7 +75,7 @@ void draw() {
 2. Change `2` to `1`  
 3. Observe how the **speed changes**
 
-🔹 **Part C: Understanding Frame-by-Frame Motion**
+**Part C: Understanding Frame-by-Frame Motion**
 
 ### Step C1: Remove the Background
 Remove the `background(255);` line and run the program again:
@@ -91,11 +91,11 @@ void draw() {
 - The screen is **not cleared**
 - **Trails** appear as the shape moves
 
-📌 **Conclusion**
+ **Conclusion**
 - `background()` clears **previous frames**
 - Removing it creates **motion trails**
 
-🔹 **Part D: Keeping Objects Inside the Screen**
+ **Part D: Keeping Objects Inside the Screen**
 
 ### Step D1: Add Boundary Control
 Use this code to keep the moving circle inside the canvas:
@@ -118,8 +118,8 @@ void draw() {
 - `width` represents the **canvas width**
 - When the object exits the screen, it **restarts from the beginning**
 
-🧠 **This prevents objects from disappearing forever.**
-🔹 **Part E: Vertical Movement & Direction**
+ **This prevents objects from disappearing forever.**
+ **Part E: Vertical Movement & Direction**
 
 ### Step E1: Modify the Code
 Use this code to move a circle **vertically** on the screen:
@@ -144,7 +144,7 @@ void draw() {
 
 ---
 
-🔹 **Part F: Mouse-Based Interactivity**
+ **Part F: Mouse-Based Interactivity**
 
 ### Step F1: Object Following the Mouse
 Use this code to make a shape follow your mouse:
@@ -166,7 +166,7 @@ void draw() {
 
 ---
 
-🔹 **Part G: Combining Animation + Mouse Interaction**
+ **Part G: Combining Animation + Mouse Interaction**
 
 ### Step G1: Mouse-Control + Automatic Movement
 Use this code to combine mouse movement with animation:
@@ -192,7 +192,7 @@ void draw() {
 
 ---
 
-## 🎨 6. Guided Creative Task
+## 6. Guided Creative Task
 
 ### Task Title: Create an Interactive Animated Toy
 
@@ -204,14 +204,14 @@ You must follow **ALL** steps:
 4. Objects must stay **inside the screen**  
 5. Animation must be **smooth** (no jumping)
 
-🎯 **Example ideas**
+**Example ideas**
 - Bouncing ball with a mouse-controlled paddle  
 - Moving character that follows the cursor  
 - Falling object controlled by the mouse  
 
 ---
 
-## 📝 7. Reflection & Self-Check
+##  7. Reflection & Self-Check
 
 Answer briefly:
 
